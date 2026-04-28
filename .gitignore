@@ -1,0 +1,26 @@
+# Binaries
+d2plugin-khantae
+d2plugin-khantae.exe
+/bin/
+*.test
+
+# Go build cache and test artifacts
+*.out
+coverage.out
+profile.out
+*.prof
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Khantae runtime artifacts
+.khantae/
+
+# Generated SVG/PNG outputs from examples (kept out of git;
+# regenerate with `d2 --layout=khantae examples/*.d2`)
+examples/*.svg
+examples/*.png

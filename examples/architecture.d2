@@ -1,0 +1,22 @@
+client
+api_gateway
+auth_service
+user_service
+order_service
+payment_service
+postgres
+redis
+kafka
+notifier
+
+client -> api_gateway
+api_gateway -> auth_service
+api_gateway -> user_service
+api_gateway -> order_service
+order_service -> payment_service
+order_service -> postgres
+user_service -> postgres
+auth_service -> redis
+order_service -> kafka
+kafka -> notifier
+payment_service -> kafka
