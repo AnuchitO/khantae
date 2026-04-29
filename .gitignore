@@ -1,6 +1,6 @@
-# Binaries
-d2plugin-khantae
-d2plugin-khantae.exe
+# Binaries (root-level only, not the cmd/ source directory)
+/d2plugin-khantae
+/d2plugin-khantae.exe
 /bin/
 *.test
 
