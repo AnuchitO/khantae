@@ -20,7 +20,15 @@ profile.out
 # Khantae runtime artifacts
 .khantae/
 
-# Generated SVG/PNG outputs from examples (kept out of git;
+# Generated SVG/PNG outputs (kept out of git;
 # regenerate with `d2 --layout=khantae examples/*.d2`)
 examples/*.svg
 examples/*.png
+*.svg
+*.png
+
+# Compiled plugin binary (built via go install)
+adapter
+
+# Claude Code local config
+.claude/
